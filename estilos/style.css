@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif; 
+
+  /* Deixa o body com altura total da tela */
+  height: 100vh;
+
+  /* Usa flexbox para organizar os itens */
+  display: flex;
+
+  /* Centraliza horizontalmente */
+  justify-content: center;
+
+  /* Centraliza verticalmente */
+  align-items: center;
+
+  /* Remover margens padrão */
+  margin: 0;
+
+  /* Cor de fundo só para ficar bonito */
+  background-color: #ffffff4f;
+
+}
+main {
+  background: rgba(85, 85, 85, 0.76);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  border: 3px solid rgb(0, 0, 0);
+  margin: 20px;
+}
+
+h1 {
+  color: blanchedalmond;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#mensagem {
+  margin-top: 15px;
+  text-align: center;
+  color: green;
+}
+.resultado {
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px solid #4caf50; /* verde */
+  background-color: #e8f5e9; /* verde claro */
+  color: #2e7d32; /* verde escuro */
+  font-weight: bold;
+  border-radius: 5px;
+}
